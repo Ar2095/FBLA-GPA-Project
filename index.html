@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href = "index.html"> Home </a>
+        </li>
+        <li>
+          <a href = "Infopg.html"> More Information </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <h1 id = "heading">GPA CALCULATOR</h1>
+  
+  <p1 id = "Intro">Welcome to the GPA Calculator! 
+  Here you can calculate your weighted and unweighted GPA. </p1>
+
+<div class = "text">
+  <div>
+    <label id = "gradeText">Enter in your grade: </label>
+      <select id="Grades" name="grade">
+    <option value="Enter"> </option>
+    <option value="A">A</option>
+    <option value="A-">A-</option>
+    <option value="B+">B+</option>
+    <option value="B">B</option>
+    <option value="B-">B-</option>
+    <option value="C+">C+</option>
+    <option value="C">C</option>
+    <option value="C-">C-</option>
+    <option value="D+">D+</option>
+    <option value="D">D</option>
+    <option value="D-">D-</option>
+    <option value="F+">F+</option>
+    <option value="F">F</option>
+      </select>
+  </div>
+  <div>
+  <label id = "classTypeText">Enter your class type: </label>
+        <select id="classType" name="classType">
+    <option value="Enter">  </option>
+    <option value="AP">AP (Advanced Placement)</option>
+    <option value="Normal">Normal</option>
+      </select>
+  </div>
+
+  <p id = "weightedGPAOutput">Your weighted GPA: </p>
+  <p id = "unweightedGPAOutput">Your unweighted GPA: </p>
+
+  <button id = "calculateButton">Calculate</button>
+  <button id = "nextButton"> Enter next Grade </button>
+
+</div>
+  <script src = "script.js"></script>
+</body>
+
+</html>

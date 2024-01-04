@@ -1,0 +1,43 @@
+html{
+    margin: 0;
+    padding:0;
+  }
+  
+  body{
+    background-color: aliceblue;
+    text-align:center;
+  
+  
+  }
+  
+  #heading{
+    color: black;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 90;
+    font-family: "Times New Roman", Times, serif;
+    background-color: whitesmoke;
+  }
+  
+  #Intro{
+    font-size: 20px;
+  }
+  
+  #Grades{
+    font-size: 20px;
+  }
+  #classTypeText{
+    font-size: 20px;
+  }
+  #gradeText{
+    font-size: 20px;
+  }
+  
+  #weightedGPAOuput{
+    font-size:20px;
+    /*font-variant-east-asian:traditional; IDK what ti does*/
+  }
+  
+  #unweightedGPAoutput{
+    font-size: 20px;
+  }
