@@ -31,6 +31,7 @@ function getUserSelection(){
   document.getElementById('Grades').value = "";
   document.getElementById('classType').value = "";
   classCount++
+  document.getElementById('classCount').innerHTML = "Number of classes entered: " + classCount;
   return userGrade; 
 
 }
