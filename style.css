@@ -1,43 +1,120 @@
 html{
-    margin: 0;
-    padding:0;
-  }
+  /*Reformatts everything to have a margin and padding of 0*/
+  margin: 0;
+  padding:0;
+}
+
+body{
+  /*updates background color*/
+  background-color: #d9c3b4;
+  /*Aligns all text to center by default for a better look*/
+  text-align: center;
+  /*Update the padding and margin to 0*/
+  padding: 0;
+  margin: 0;
   
-  body{
-    background-color: aliceblue;
-    text-align:center;
-  
-  
-  }
-  
-  #heading{
-    color: black;
-    text-align: center;
-    font-size: 70px;
-    font-weight: 90;
-    font-family: "Times New Roman", Times, serif;
-    background-color: whitesmoke;
-  }
-  
-  #Intro{
-    font-size: 20px;
-  }
-  
-  #Grades{
-    font-size: 20px;
-  }
-  #classTypeText{
-    font-size: 20px;
-  }
-  #gradeText{
-    font-size: 20px;
-  }
-  
-  #weightedGPAOuput{
-    font-size:20px;
-    /*font-variant-east-asian:traditional; IDK what ti does*/
-  }
-  
-  #unweightedGPAoutput{
-    font-size: 20px;
-  }
+}
+
+#heading{
+  /*Change the heading color to white*/
+  /*White also helps the heading stand out*/
+  /*updates the color and size of font*/
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 90;/*changed font to be thicker*/
+  font-family: "Times New Roman", Times, serif;/*changes font*/
+}
+
+/*These two change the sizes of the dropdown to be bigger*/
+#Grades{
+  font-size: 20px;
+}
+#classType{
+  font-size: 20px;
+}
+/*changes the button to be formatted correctly*/
+.buttons{
+  background-color: #d9c3b4;
+  border: #000000, solid, 2px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 30px 20px;
+  cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+}
+/*Changes color when user hovers over buttons*/
+.buttons:hover{
+   background-color: #b8a193;
+}
+/*Changes all text*/
+.text{
+  color: black;
+  font-size: 25px;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*This is for the naviation bar*/
+ul{
+  margin: 0;
+  padding: 20px;
+  list-style-type: none;
+  background-image: linear-gradient(360deg, #96735c,#96735c);
+  overflow: hidden;
+  margin-block-end: 30px;
+  padding-top:10px;
+  padding-bottom: 5px;
+}
+
+/*Aligns the links in the center beside each other*/
+li {
+  display: inline;
+  text-align: center;
+}
+
+/*Change the links to the other pages so that they have white*/
+/*text, a better font type, and also changes padding, margins and position*/
+li a {
+  color: floralwhite;
+  font-size: 30px;
+  font-family: pacifico,  Brush Script Std, Brush Script MT, cursive;
+  padding: 30px;
+  text-decoration:none;
+  text-align: center;
+  padding-botton: 20px;
+  padding-top:20px;
+
+}
+/*changes color when user hovers over navigation bar link*/
+li a:hover {
+  background-color: #9a7e6d;
+}
+
+
+
+/*------------------THE CSS FOR THE SECOND PAGE----------------------*/
+
+.text2{
+  text-align:left;
+  color: black;
+  font-size: 23px;
+  font-family:'Times New Roman', Times, serif;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin: 30px;
+}
+
+.subheading{
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin: 30px;
+}
